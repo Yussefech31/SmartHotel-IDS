@@ -1,0 +1,32 @@
+# Nested clone folder (do not track)
+SmartHotel-IDS/
+
+# Dataset CIC-IDS2017
+data/
+raw/
+*.pcap
+*.csv
+*.parquet
+
+# Large ML artifacts
+models/
+checkpoints/
+*.pkl
+*.joblib
+*.h5
+*.keras
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Temporary files
+*.log
+.DS_Store
